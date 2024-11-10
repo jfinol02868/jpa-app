@@ -1,2 +1,2 @@
-INSERT INTO persona (id, nombre) VALUES (1, 'Juan');
-INSERT INTO pasaporte (numero, id) VALUES ('AB12345', 1);
+INSERT INTO pasaporte (id, numero) VALUES (1, 'ABC123');
+INSERT INTO persona (id, nombre, pasaporte_id) VALUES (1, 'Juan Perez', 1);
